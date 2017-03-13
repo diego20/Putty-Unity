@@ -11,7 +11,13 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIWindow *unityWindow;
 
+@property (strong, nonatomic) UnityAppController *unityController;
+
+- (void)showUnityWindow;
+- (void)hideUnityWindow;
+- (UIView *)getUnityView;
 
 @end
 
