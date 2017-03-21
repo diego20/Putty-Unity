@@ -14,6 +14,10 @@
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Se necesita el micrófono para identificar el ruido ambiental</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Se necesita acceso a la cámara para detectar la luz ambiental</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

@@ -10,10 +10,8 @@
 		4219A6F31E7F59D700B65E35 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 423A9FEC1E74D239000CED62 /* libiPhone-lib.a */; };
 		4219A6F41E7F59EF00B65E35 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC001E74D33C000CED62 /* AudioToolbox.framework */; };
 		4219A6F51E7F5A1C00B65E35 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC161E74D3CB000CED62 /* OpenAL.framework */; };
-		4219A71A1E7F86DA00B65E35 /* TestOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219A7191E7F86DA00B65E35 /* TestOneViewController.swift */; };
 		423A9DF71E74D134000CED62 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 423A9DF61E74D134000CED62 /* main.mm */; };
 		423A9DFA1E74D134000CED62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A9DF91E74D134000CED62 /* AppDelegate.m */; };
-		423A9DFD1E74D134000CED62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A9DFC1E74D134000CED62 /* ViewController.m */; };
 		423A9E021E74D134000CED62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423A9E011E74D134000CED62 /* Assets.xcassets */; };
 		423A9E051E74D134000CED62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423A9E031E74D134000CED62 /* LaunchScreen.storyboard */; };
 		423A9E101E74D134000CED62 /* PruebaUnityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A9E0F1E74D134000CED62 /* PruebaUnityTests.m */; };
@@ -128,10 +126,19 @@
 		423AAC1D1E74D46B000CED62 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC1C1E74D46B000CED62 /* SystemConfiguration.framework */; };
 		423AAC1F1E74D470000CED62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC1E1E74D470000CED62 /* UIKit.framework */; };
 		423AAC211E74D479000CED62 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC201E74D479000CED62 /* libiconv.2.tbd */; };
-		423AAC241E74E4E8000CED62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423AAC231E74E4E8000CED62 /* Main.storyboard */; };
-		423AAC271E74E697000CED62 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423AAC261E74E697000CED62 /* SecondViewController.m */; };
-		42E631C71E80B53C00D0F274 /* TestTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631C61E80B53C00D0F274 /* TestTwoViewController.swift */; };
+		42E631C71E80B53C00D0F274 /* MunecoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631C61E80B53C00D0F274 /* MunecoViewController.swift */; };
 		42E631CC1E80C0DC00D0F274 /* ConnectionToAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E631CB1E80C0DC00D0F274 /* ConnectionToAppDelegate.m */; };
+		42E631D71E80CF8600D0F274 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631CE1E80CF8600D0F274 /* GlobalConstants.swift */; };
+		42E631D81E80CF8600D0F274 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631CF1E80CF8600D0F274 /* GlobalVariables.swift */; };
+		42E631D91E80CF8600D0F274 /* InventarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631D01E80CF8600D0F274 /* InventarioViewController.swift */; };
+		42E631DA1E80CF8600D0F274 /* ItemTienda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631D11E80CF8600D0F274 /* ItemTienda.swift */; };
+		42E631DB1E80CF8600D0F274 /* OpcionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631D21E80CF8600D0F274 /* OpcionesViewController.swift */; };
+		42E631DC1E80CF8600D0F274 /* PuttyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631D31E80CF8600D0F274 /* PuttyViewController.swift */; };
+		42E631DD1E80CF8600D0F274 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631D41E80CF8600D0F274 /* TestViewController.swift */; };
+		42E631DE1E80CF8600D0F274 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631D51E80CF8600D0F274 /* Usuario.swift */; };
+		42E631DF1E80CF8600D0F274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631D61E80CF8600D0F274 /* ViewController.swift */; };
+		42E631E21E80D03300D0F274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E631E01E80D03300D0F274 /* Main.storyboard */; };
+		42E631E61E80D3F900D0F274 /* GameModesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631E51E80D3F900D0F274 /* GameModesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,13 +159,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4219A7191E7F86DA00B65E35 /* TestOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOneViewController.swift; sourceTree = "<group>"; };
 		423A9DF21E74D134000CED62 /* PruebaUnity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaUnity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423A9DF61E74D134000CED62 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		423A9DF81E74D134000CED62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		423A9DF91E74D134000CED62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		423A9DFB1E74D134000CED62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		423A9DFC1E74D134000CED62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		423A9E011E74D134000CED62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		423A9E041E74D134000CED62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		423A9E061E74D134000CED62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -331,13 +335,21 @@
 		423AAC1E1E74D470000CED62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		423AAC201E74D479000CED62 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
 		423AAC221E74D720000CED62 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		423AAC231E74E4E8000CED62 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		423AAC251E74E697000CED62 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		423AAC261E74E697000CED62 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		42E631C51E80B53C00D0F274 /* PruebaUnity-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PruebaUnity-Bridging-Header.h"; sourceTree = "<group>"; };
-		42E631C61E80B53C00D0F274 /* TestTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTwoViewController.swift; sourceTree = "<group>"; };
+		42E631C61E80B53C00D0F274 /* MunecoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MunecoViewController.swift; sourceTree = "<group>"; };
 		42E631CB1E80C0DC00D0F274 /* ConnectionToAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionToAppDelegate.m; sourceTree = "<group>"; };
 		42E631CD1E80C18F00D0F274 /* ConnectionToAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionToAppDelegate.h; sourceTree = "<group>"; };
+		42E631CE1E80CF8600D0F274 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		42E631CF1E80CF8600D0F274 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		42E631D01E80CF8600D0F274 /* InventarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventarioViewController.swift; sourceTree = "<group>"; };
+		42E631D11E80CF8600D0F274 /* ItemTienda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTienda.swift; sourceTree = "<group>"; };
+		42E631D21E80CF8600D0F274 /* OpcionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpcionesViewController.swift; sourceTree = "<group>"; };
+		42E631D31E80CF8600D0F274 /* PuttyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuttyViewController.swift; sourceTree = "<group>"; };
+		42E631D41E80CF8600D0F274 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		42E631D51E80CF8600D0F274 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		42E631D61E80CF8600D0F274 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42E631E11E80D03300D0F274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42E631E51E80D3F900D0F274 /* GameModesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,21 +420,24 @@
 			isa = PBXGroup;
 			children = (
 				423A9E281E74D1E6000CED62 /* Vendor */,
+				423A9E011E74D134000CED62 /* Assets.xcassets */,
 				423A9DF81E74D134000CED62 /* AppDelegate.h */,
 				423A9DF91E74D134000CED62 /* AppDelegate.m */,
-				423AAC251E74E697000CED62 /* SecondViewController.h */,
-				423AAC261E74E697000CED62 /* SecondViewController.m */,
-				42E631C81E80BFEB00D0F274 /* Utils */,
-				423AAC231E74E4E8000CED62 /* Main.storyboard */,
-				4219A7191E7F86DA00B65E35 /* TestOneViewController.swift */,
-				42E631C61E80B53C00D0F274 /* TestTwoViewController.swift */,
-				423A9DFB1E74D134000CED62 /* ViewController.h */,
-				423A9DFC1E74D134000CED62 /* ViewController.m */,
-				423A9E011E74D134000CED62 /* Assets.xcassets */,
 				423A9E031E74D134000CED62 /* LaunchScreen.storyboard */,
 				423A9E061E74D134000CED62 /* Info.plist */,
 				423A9DF51E74D134000CED62 /* Supporting Files */,
 				423AAC221E74D720000CED62 /* PrefixHeader.pch */,
+				42E631E71E80D51100D0F274 /* Globals */,
+				42E631E81E80D56F00D0F274 /* Modelo */,
+				42E631C81E80BFEB00D0F274 /* Utils */,
+				42E631E01E80D03300D0F274 /* Main.storyboard */,
+				42E631E51E80D3F900D0F274 /* GameModesViewController.swift */,
+				42E631C61E80B53C00D0F274 /* MunecoViewController.swift */,
+				42E631D01E80CF8600D0F274 /* InventarioViewController.swift */,
+				42E631D21E80CF8600D0F274 /* OpcionesViewController.swift */,
+				42E631D31E80CF8600D0F274 /* PuttyViewController.swift */,
+				42E631D41E80CF8600D0F274 /* TestViewController.swift */,
+				42E631D61E80CF8600D0F274 /* ViewController.swift */,
 			);
 			path = PruebaUnity;
 			sourceTree = "<group>";
@@ -714,11 +729,29 @@
 		42E631C81E80BFEB00D0F274 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				42E631CD1E80C18F00D0F274 /* ConnectionToAppDelegate.h */,
 				42E631CB1E80C0DC00D0F274 /* ConnectionToAppDelegate.m */,
 				42E631C51E80B53C00D0F274 /* PruebaUnity-Bridging-Header.h */,
-				42E631CD1E80C18F00D0F274 /* ConnectionToAppDelegate.h */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		42E631E71E80D51100D0F274 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				42E631CE1E80CF8600D0F274 /* GlobalConstants.swift */,
+				42E631CF1E80CF8600D0F274 /* GlobalVariables.swift */,
+			);
+			name = Globals;
+			sourceTree = "<group>";
+		};
+		42E631E81E80D56F00D0F274 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				42E631D11E80CF8600D0F274 /* ItemTienda.swift */,
+				42E631D51E80CF8600D0F274 /* Usuario.swift */,
+			);
+			name = Modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -832,7 +865,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				423A9E051E74D134000CED62 /* LaunchScreen.storyboard in Resources */,
-				423AAC241E74E4E8000CED62 /* Main.storyboard in Resources */,
+				42E631E21E80D03300D0F274 /* Main.storyboard in Resources */,
 				423A9E021E74D134000CED62 /* Assets.xcassets in Resources */,
 				423AABFC1E74D313000CED62 /* Data in Resources */,
 			);
@@ -868,6 +901,7 @@
 				423AABC31E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_5Table.cpp in Sources */,
 				423AABD21E74D27B000CED62 /* Il2CppMetadataRegistration.cpp in Sources */,
 				423AABDF1E74D27C000CED62 /* OrientationSupport.mm in Sources */,
+				42E631DE1E80CF8600D0F274 /* Usuario.swift in Sources */,
 				423AABE51E74D27C000CED62 /* AVCapture.mm in Sources */,
 				423AABB51E74D27B000CED62 /* Bulk_UnityEngine_1.cpp in Sources */,
 				423AABA01E74D27B000CED62 /* iPhone_Sensors.mm in Sources */,
@@ -882,18 +916,18 @@
 				423AABA71E74D27B000CED62 /* Bulk_Mono.Security_0.cpp in Sources */,
 				423AABAC1E74D27B000CED62 /* Bulk_mscorlib_3.cpp in Sources */,
 				423AABA61E74D27B000CED62 /* Bulk_Generics_3.cpp in Sources */,
+				42E631D91E80CF8600D0F274 /* InventarioViewController.swift in Sources */,
 				423AABE11E74D27C000CED62 /* UnityAppController+ViewHandling.mm in Sources */,
 				423AABDB1E74D27C000CED62 /* RenderPluginDelegate.mm in Sources */,
 				423AABE21E74D27C000CED62 /* UnityView.mm in Sources */,
 				423A9FF31E74D239000CED62 /* Il2CppOptions.cpp in Sources */,
-				4219A71A1E7F86DA00B65E35 /* TestOneViewController.swift in Sources */,
 				423AABC91E74D27B000CED62 /* Il2CppDelegateWrappersManagedToNativeTable.cpp in Sources */,
-				423A9DFD1E74D134000CED62 /* ViewController.m in Sources */,
 				423AABAB1E74D27B000CED62 /* Bulk_mscorlib_2.cpp in Sources */,
 				423AABD91E74D27C000CED62 /* AppDelegateListener.mm in Sources */,
 				423AABBD1E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_12Table.cpp in Sources */,
 				423AABBF1E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_1Table.cpp in Sources */,
 				423AABD31E74D27B000CED62 /* Il2CppMetadataUsage.cpp in Sources */,
+				42E631D81E80CF8600D0F274 /* GlobalVariables.swift in Sources */,
 				423AABEA1E74D27C000CED62 /* DisplayManager.mm in Sources */,
 				423AABBB1E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_10Table.cpp in Sources */,
 				423AABD41E74D27B000CED62 /* Il2CppMethodPointerTable.cpp in Sources */,
@@ -908,9 +942,11 @@
 				423AABC01E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_2Table.cpp in Sources */,
 				423AABA31E74D27B000CED62 /* Bulk_Generics_0.cpp in Sources */,
 				423AABF81E74D27C000CED62 /* UnityAppController+Rendering.mm in Sources */,
+				42E631E61E80D3F900D0F274 /* GameModesViewController.swift in Sources */,
 				423AABDD1E74D27C000CED62 /* ActivityIndicator.mm in Sources */,
 				423A9DFA1E74D134000CED62 /* AppDelegate.m in Sources */,
 				423AABC41E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_6Table.cpp in Sources */,
+				42E631DA1E80CF8600D0F274 /* ItemTienda.swift in Sources */,
 				423AABB01E74D27B000CED62 /* Bulk_mscorlib_7.cpp in Sources */,
 				423AABF31E74D27C000CED62 /* UnityReplayKit.mm in Sources */,
 				423AABB11E74D27B000CED62 /* Bulk_System.Core_0.cpp in Sources */,
@@ -922,15 +958,16 @@
 				423AABF11E74D27C000CED62 /* ObjCRuntime.mm in Sources */,
 				423A9FF81E74D239000CED62 /* RegisterMonoModules.cpp in Sources */,
 				423AABE31E74D27C000CED62 /* UnityViewControllerBaseiOS.mm in Sources */,
+				42E631D71E80CF8600D0F274 /* GlobalConstants.swift in Sources */,
 				423AABD71E74D27C000CED62 /* UnityICallRegistration.cpp in Sources */,
 				423AABD81E74D27C000CED62 /* UnresolvedVirtualCallStubs.cpp in Sources */,
 				423AABED1E74D27C000CED62 /* FullScreenVideoPlayer.mm in Sources */,
 				423AABC51E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_7Table.cpp in Sources */,
-				423AAC271E74E697000CED62 /* SecondViewController.m in Sources */,
 				423AABAA1E74D27B000CED62 /* Bulk_mscorlib_1.cpp in Sources */,
 				423AABAF1E74D27B000CED62 /* Bulk_mscorlib_6.cpp in Sources */,
 				423AABCA1E74D27B000CED62 /* Il2CppGenericClassTable.cpp in Sources */,
 				423AABE71E74D27C000CED62 /* CMVideoSampling.mm in Sources */,
+				42E631DC1E80CF8600D0F274 /* PuttyViewController.swift in Sources */,
 				423AABD61E74D27C000CED62 /* UnityClassRegistration.cpp in Sources */,
 				423AABC21E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_4Table.cpp in Sources */,
 				423AABD51E74D27B000CED62 /* Il2CppTypeDefinitions.cpp in Sources */,
@@ -942,7 +979,7 @@
 				423AABF01E74D27C000CED62 /* MetalHelper.mm in Sources */,
 				423A9FF71E74D239000CED62 /* RegisterFeatures.cpp in Sources */,
 				423AABE41E74D27C000CED62 /* UnityViewControllerBaseTV.mm in Sources */,
-				42E631C71E80B53C00D0F274 /* TestTwoViewController.swift in Sources */,
+				42E631C71E80B53C00D0F274 /* MunecoViewController.swift in Sources */,
 				423AAB9F1E74D27B000CED62 /* CrashReporter.mm in Sources */,
 				423AABF61E74D27C000CED62 /* WWWConnection.mm in Sources */,
 				423AABF71E74D27C000CED62 /* UnityAdsUnityWrapper.mm in Sources */,
@@ -951,12 +988,15 @@
 				423AABF91E74D27C000CED62 /* UnityAppController+UnityInterface.mm in Sources */,
 				423AABBA1E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_0Table.cpp in Sources */,
 				423AABF41E74D27C000CED62 /* UnityReplayKit_Scripting.mm in Sources */,
+				42E631DB1E80CF8600D0F274 /* OpcionesViewController.swift in Sources */,
 				423AABB61E74D27B000CED62 /* GenericMethods0.cpp in Sources */,
 				423AABB71E74D27B000CED62 /* Il2CppAttributes.cpp in Sources */,
 				423AABA91E74D27B000CED62 /* Bulk_mscorlib_0.cpp in Sources */,
 				423AABC11E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_3Table.cpp in Sources */,
 				423AABC71E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_9Table.cpp in Sources */,
+				42E631DF1E80CF8600D0F274 /* ViewController.swift in Sources */,
 				423AABA21E74D27B000CED62 /* Bulk_Assembly-CSharp_0.cpp in Sources */,
+				42E631DD1E80CF8600D0F274 /* TestViewController.swift in Sources */,
 				423AABF51E74D27C000CED62 /* VideoPlayer.mm in Sources */,
 				423AABE91E74D27C000CED62 /* DeviceSettings.mm in Sources */,
 				423AABCC1E74D27B000CED62 /* Il2CppGenericMethodDefinitions.cpp in Sources */,
@@ -1001,6 +1041,14 @@
 				423A9E041E74D134000CED62 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42E631E01E80D03300D0F274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E631E11E80D03300D0F274 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
