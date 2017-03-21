@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4219A6F31E7F59D700B65E35 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 423A9FEC1E74D239000CED62 /* libiPhone-lib.a */; };
+		4219A6F41E7F59EF00B65E35 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC001E74D33C000CED62 /* AudioToolbox.framework */; };
+		4219A6F51E7F5A1C00B65E35 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC161E74D3CB000CED62 /* OpenAL.framework */; };
+		4219A71A1E7F86DA00B65E35 /* TestOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219A7191E7F86DA00B65E35 /* TestOneViewController.swift */; };
 		423A9DF71E74D134000CED62 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 423A9DF61E74D134000CED62 /* main.mm */; };
 		423A9DFA1E74D134000CED62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A9DF91E74D134000CED62 /* AppDelegate.m */; };
 		423A9DFD1E74D134000CED62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A9DFC1E74D134000CED62 /* ViewController.m */; };
@@ -15,7 +19,6 @@
 		423A9E101E74D134000CED62 /* PruebaUnityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A9E0F1E74D134000CED62 /* PruebaUnityTests.m */; };
 		423A9E1B1E74D134000CED62 /* PruebaUnityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A9E1A1E74D134000CED62 /* PruebaUnityUITests.m */; };
 		423A9FF31E74D239000CED62 /* Il2CppOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 423A9E2B1E74D239000CED62 /* Il2CppOptions.cpp */; };
-		423A9FF61E74D239000CED62 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 423A9FEC1E74D239000CED62 /* libiPhone-lib.a */; };
 		423A9FF71E74D239000CED62 /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 423A9FEF1E74D239000CED62 /* RegisterFeatures.cpp */; };
 		423A9FF81E74D239000CED62 /* RegisterMonoModules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 423A9FF11E74D239000CED62 /* RegisterMonoModules.cpp */; };
 		423AAB9F1E74D27B000CED62 /* CrashReporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 423A9FFB1E74D248000CED62 /* CrashReporter.mm */; };
@@ -111,7 +114,6 @@
 		423AABFA1E74D27C000CED62 /* UnityAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 423AAB9C1E74D27B000CED62 /* UnityAppController.mm */; };
 		423AABFC1E74D313000CED62 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 423AABFB1E74D313000CED62 /* Data */; };
 		423AABFF1E74D32D000CED62 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AABFE1E74D32D000CED62 /* CoreText.framework */; };
-		423AAC011E74D33C000CED62 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC001E74D33C000CED62 /* AudioToolbox.framework */; };
 		423AAC031E74D351000CED62 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC021E74D351000CED62 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		423AAC051E74D35A000CED62 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC041E74D35A000CED62 /* CFNetwork.framework */; };
 		423AAC071E74D378000CED62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC061E74D378000CED62 /* CoreGraphics.framework */; };
@@ -120,9 +122,7 @@
 		423AAC0D1E74D39B000CED62 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC0C1E74D39B000CED62 /* CoreMotion.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		423AAC0F1E74D3A5000CED62 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC0E1E74D3A5000CED62 /* CoreVideo.framework */; };
 		423AAC111E74D3AD000CED62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC101E74D3AD000CED62 /* Foundation.framework */; };
-		423AAC131E74D3B2000CED62 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC121E74D3B2000CED62 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		423AAC151E74D3C4000CED62 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC141E74D3C4000CED62 /* MediaPlayer.framework */; };
-		423AAC171E74D3CB000CED62 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC161E74D3CB000CED62 /* OpenAL.framework */; };
 		423AAC191E74D3D2000CED62 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC181E74D3D2000CED62 /* OpenGLES.framework */; };
 		423AAC1B1E74D465000CED62 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC1A1E74D465000CED62 /* QuartzCore.framework */; };
 		423AAC1D1E74D46B000CED62 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC1C1E74D46B000CED62 /* SystemConfiguration.framework */; };
@@ -130,6 +130,8 @@
 		423AAC211E74D479000CED62 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AAC201E74D479000CED62 /* libiconv.2.tbd */; };
 		423AAC241E74E4E8000CED62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423AAC231E74E4E8000CED62 /* Main.storyboard */; };
 		423AAC271E74E697000CED62 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423AAC261E74E697000CED62 /* SecondViewController.m */; };
+		42E631C71E80B53C00D0F274 /* TestTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E631C61E80B53C00D0F274 /* TestTwoViewController.swift */; };
+		42E631CC1E80C0DC00D0F274 /* ConnectionToAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E631CB1E80C0DC00D0F274 /* ConnectionToAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +152,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4219A7191E7F86DA00B65E35 /* TestOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOneViewController.swift; sourceTree = "<group>"; };
 		423A9DF21E74D134000CED62 /* PruebaUnity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaUnity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423A9DF61E74D134000CED62 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		423A9DF81E74D134000CED62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -331,6 +334,10 @@
 		423AAC231E74E4E8000CED62 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		423AAC251E74E697000CED62 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		423AAC261E74E697000CED62 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		42E631C51E80B53C00D0F274 /* PruebaUnity-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PruebaUnity-Bridging-Header.h"; sourceTree = "<group>"; };
+		42E631C61E80B53C00D0F274 /* TestTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTwoViewController.swift; sourceTree = "<group>"; };
+		42E631CB1E80C0DC00D0F274 /* ConnectionToAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionToAppDelegate.m; sourceTree = "<group>"; };
+		42E631CD1E80C18F00D0F274 /* ConnectionToAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionToAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,14 +345,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4219A6F51E7F5A1C00B65E35 /* OpenAL.framework in Frameworks */,
+				4219A6F41E7F59EF00B65E35 /* AudioToolbox.framework in Frameworks */,
 				423AAC211E74D479000CED62 /* libiconv.2.tbd in Frameworks */,
 				423AAC1F1E74D470000CED62 /* UIKit.framework in Frameworks */,
 				423AAC1D1E74D46B000CED62 /* SystemConfiguration.framework in Frameworks */,
 				423AAC1B1E74D465000CED62 /* QuartzCore.framework in Frameworks */,
 				423AAC191E74D3D2000CED62 /* OpenGLES.framework in Frameworks */,
-				423AAC171E74D3CB000CED62 /* OpenAL.framework in Frameworks */,
 				423AAC151E74D3C4000CED62 /* MediaPlayer.framework in Frameworks */,
-				423AAC131E74D3B2000CED62 /* iAd.framework in Frameworks */,
 				423AAC111E74D3AD000CED62 /* Foundation.framework in Frameworks */,
 				423AAC0F1E74D3A5000CED62 /* CoreVideo.framework in Frameworks */,
 				423AAC0D1E74D39B000CED62 /* CoreMotion.framework in Frameworks */,
@@ -354,9 +361,8 @@
 				423AAC071E74D378000CED62 /* CoreGraphics.framework in Frameworks */,
 				423AAC051E74D35A000CED62 /* CFNetwork.framework in Frameworks */,
 				423AAC031E74D351000CED62 /* AVFoundation.framework in Frameworks */,
-				423AAC011E74D33C000CED62 /* AudioToolbox.framework in Frameworks */,
+				4219A6F31E7F59D700B65E35 /* libiPhone-lib.a in Frameworks */,
 				423AABFF1E74D32D000CED62 /* CoreText.framework in Frameworks */,
-				423A9FF61E74D239000CED62 /* libiPhone-lib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +412,10 @@
 				423A9DF91E74D134000CED62 /* AppDelegate.m */,
 				423AAC251E74E697000CED62 /* SecondViewController.h */,
 				423AAC261E74E697000CED62 /* SecondViewController.m */,
+				42E631C81E80BFEB00D0F274 /* Utils */,
 				423AAC231E74E4E8000CED62 /* Main.storyboard */,
+				4219A7191E7F86DA00B65E35 /* TestOneViewController.swift */,
+				42E631C61E80B53C00D0F274 /* TestTwoViewController.swift */,
 				423A9DFB1E74D134000CED62 /* ViewController.h */,
 				423A9DFC1E74D134000CED62 /* ViewController.m */,
 				423A9E011E74D134000CED62 /* Assets.xcassets */,
@@ -702,6 +711,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		42E631C81E80BFEB00D0F274 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				42E631CB1E80C0DC00D0F274 /* ConnectionToAppDelegate.m */,
+				42E631C51E80B53C00D0F274 /* PruebaUnity-Bridging-Header.h */,
+				42E631CD1E80C18F00D0F274 /* ConnectionToAppDelegate.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -770,6 +789,7 @@
 					423A9DF11E74D134000CED62 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2493X7F28A;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					423A9E0A1E74D134000CED62 = {
@@ -866,6 +886,7 @@
 				423AABDB1E74D27C000CED62 /* RenderPluginDelegate.mm in Sources */,
 				423AABE21E74D27C000CED62 /* UnityView.mm in Sources */,
 				423A9FF31E74D239000CED62 /* Il2CppOptions.cpp in Sources */,
+				4219A71A1E7F86DA00B65E35 /* TestOneViewController.swift in Sources */,
 				423AABC91E74D27B000CED62 /* Il2CppDelegateWrappersManagedToNativeTable.cpp in Sources */,
 				423A9DFD1E74D134000CED62 /* ViewController.m in Sources */,
 				423AABAB1E74D27B000CED62 /* Bulk_mscorlib_2.cpp in Sources */,
@@ -921,9 +942,11 @@
 				423AABF01E74D27C000CED62 /* MetalHelper.mm in Sources */,
 				423A9FF71E74D239000CED62 /* RegisterFeatures.cpp in Sources */,
 				423AABE41E74D27C000CED62 /* UnityViewControllerBaseTV.mm in Sources */,
+				42E631C71E80B53C00D0F274 /* TestTwoViewController.swift in Sources */,
 				423AAB9F1E74D27B000CED62 /* CrashReporter.mm in Sources */,
 				423AABF61E74D27C000CED62 /* WWWConnection.mm in Sources */,
 				423AABF71E74D27C000CED62 /* UnityAdsUnityWrapper.mm in Sources */,
+				42E631CC1E80C0DC00D0F274 /* ConnectionToAppDelegate.m in Sources */,
 				423A9DF71E74D134000CED62 /* main.mm in Sources */,
 				423AABF91E74D27C000CED62 /* UnityAppController+UnityInterface.mm in Sources */,
 				423AABBA1E74D27B000CED62 /* Il2CppCompilerCalculateTypeValues_0Table.cpp in Sources */,
@@ -1076,6 +1099,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				DEVELOPMENT_TEAM = 2493X7F28A;
@@ -1107,6 +1131,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = diego.PruebaUnity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PruebaUnity/PruebaUnity-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				UNITY_RUNTIME_VERSION = 5.5.1F1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 			};
@@ -1117,6 +1144,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				DEVELOPMENT_TEAM = 2493X7F28A;
@@ -1148,6 +1176,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = diego.PruebaUnity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PruebaUnity/PruebaUnity-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				UNITY_RUNTIME_VERSION = 5.5.1F1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 			};
@@ -1156,6 +1186,7 @@
 		423A9E231E74D134000CED62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2493X7F28A;
 				INFOPLIST_FILE = PruebaUnityTests/Info.plist;
@@ -1169,6 +1200,7 @@
 		423A9E241E74D134000CED62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2493X7F28A;
 				INFOPLIST_FILE = PruebaUnityTests/Info.plist;
@@ -1182,6 +1214,7 @@
 		423A9E261E74D134000CED62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2493X7F28A;
 				INFOPLIST_FILE = PruebaUnityUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1194,6 +1227,7 @@
 		423A9E271E74D134000CED62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2493X7F28A;
 				INFOPLIST_FILE = PruebaUnityUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1222,6 +1256,7 @@
 				423A9E211E74D134000CED62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423A9E221E74D134000CED62 /* Build configuration list for PBXNativeTarget "PruebaUnityTests" */ = {
 			isa = XCConfigurationList;
@@ -1230,6 +1265,7 @@
 				423A9E241E74D134000CED62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423A9E251E74D134000CED62 /* Build configuration list for PBXNativeTarget "PruebaUnityUITests" */ = {
 			isa = XCConfigurationList;
@@ -1238,6 +1274,7 @@
 				423A9E271E74D134000CED62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

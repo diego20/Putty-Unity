@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C0F434482F21D483014FB3B9459254B971282CF5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B62F91F2B4CC54835DA384349A976C383F51C1DF" : 9223372036854775807,
+    "C0F434482F21D483014FB3B9459254B971282CF5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0EEDEF11-FE93-416C-9F85-F41309D64B55",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B62F91F2B4CC54835DA384349A976C383F51C1DF" : "..\/Documents\/unity-mesh-deformator",
+    "C0F434482F21D483014FB3B9459254B971282CF5" : "PruebaUnity\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PruebaUnity",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PruebaUnity.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.com\/gigabruhs\/unity-mesh-deformator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B62F91F2B4CC54835DA384349A976C383F51C1DF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/diego20\/Putty-Unity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C0F434482F21D483014FB3B9459254B971282CF5"
+    }
+  ]
+}
